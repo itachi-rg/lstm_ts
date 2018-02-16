@@ -108,7 +108,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
             if iter%print_iter==0:
 
                 mean_loss, loss_variance=sess.run([tf_mean_loss,tf_loss_variance],feed_dict={x: X_train_samples, y: y_train_samples})
-                print(iter, " : iteration , Mean Loss :", mean_loss, "Variance :", loss_variance, " MSE/Var :", (mean_loss/loss_variance) )
+                print(iter, " : Epoch , Mean Loss :", mean_loss, "Variance :", loss_variance, " MSE/Var :", (mean_loss/loss_variance) )
                 
                 saver.save(sess, "/home/rgangaraju/lstm/cp1/model.ckpt", global_step = iter)
 
