@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from tensorflow.contrib import rnn
 
 from pandas import DataFrame, Series, concat, read_csv, datetime
-
+from sklearn.utils import shuffle
 
 def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=128, num_features=1, num_classes=1, batch_size=128, learning_rate=0.001, split_percent=0.8, print_iter=100):
     print(" Parameter values")
@@ -92,7 +92,18 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
             saver.restore(sess, latest_cp)
         iter=1
         while iter<iterations:
-            sess.run(opt, feed_dict={x: X_train_samples, y: y_train_samples})
+            X_samples_shuffle, y_samples_shuffle = shuffle(X_train_samples, y_train_samples,random_state=iter)
+
+            current_batch_length = 0
+
+            while (current_batch_length+batch_size)<num_samples:
+                X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+                y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+
+                print "current_batch_length : ", current_batch_length
+                current_batch_length += batch_size
+
+                sess.run(opt, feed_dict={x: X_train_samples, y: y_train_samples})
 
             if iter%print_iter==0:
 
