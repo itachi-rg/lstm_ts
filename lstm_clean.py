@@ -100,7 +100,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
                 X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
                 y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
 
-                print "current_batch_length : ", current_batch_length
+                print("current_batch_length : ", current_batch_length)
                 current_batch_length += batch_size
 
                 sess.run(opt, feed_dict={x: X_train_samples, y: y_train_samples})
