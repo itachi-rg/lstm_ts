@@ -46,13 +46,13 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
 
     # Create static graph
 
-    out_weights=tf.Variable(tf.random_normal([num_lstm_hidden_units,n_classes]))
-    out_bias=tf.Variable(tf.random_normal([n_classes]))
+    out_weights=tf.Variable(tf.random_normal([num_lstm_hidden_units,num_classes]))
+    out_bias=tf.Variable(tf.random_normal([num_classes]))
 
     #input image placeholder
     x=tf.placeholder("float",[None,time_steps,num_features])
     #input label placeholder
-    y=tf.placeholder("float",[None,n_classes])
+    y=tf.placeholder("float",[None,num_classes])
 
     #processing the input tensor from [batch_size,n_steps,num_features] to "time_steps" number of [batch_size,num_features] tensors
     tfinput=tf.unstack(x ,time_steps,1)
@@ -61,7 +61,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
     lstm_layer=rnn.BasicLSTMCell(num_lstm_hidden_units,forget_bias=1)
     outputs,_=rnn.static_rnn(lstm_layer,tfinput,dtype="float32")
 
-    #converting last output of dimension [batch_size,num_lstm_hidden_units] to [batch_size,n_classes] by out_weight multiplication
+    #converting last output of dimension [batch_size,num_lstm_hidden_units] to [batch_size,num_classes] by out_weight multiplication
     prediction=tf.matmul(outputs[-1],out_weights)+out_bias
     
     loss_array = tf.pow(prediction-y,2)
