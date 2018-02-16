@@ -1,15 +1,20 @@
-from pandas import DataFrame
-from pandas import Series
-from pandas import concat
-from pandas import read_csv
-from pandas import datetime
+from os import listdir
+from os.path import isfile, join
+
 import numpy as np
 import tensorflow as tf
-from tensorflow.contrib import rnn
 import matplotlib.pyplot as plt
+
+from tensorflow.contrib import rnn
+
+from pandas import DataFrame, Series, concat, read_csv, datetime
 
 
 def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=128, num_features=1, num_classes=1, batch_size=128, learning_rate=0.001, split_percent=0.8, print_iter=100):
+    print(" Parameter values")
+    print(" Iterations : ", iterations)
+    print(" time_steps : ", time_steps)
+    print("learning rat: ", learning_rate)
 
     series = read_csv(training_file)
     
@@ -116,6 +121,12 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
 
 if __name__ == '__main__':
     filename = '/home/rgangaraju/chaos/entropy_data/xalan-smallJikesRVM-both-100k-64.entropy'
-    train(filename)
+    filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
+    files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
+
+    for data_file in files:
+        print("File : ", data_file)
+        train(data_file)
+        print("==================================================================")
 
 
