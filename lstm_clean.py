@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[1]:
-
 from pandas import DataFrame
 from pandas import Series
 from pandas import concat
@@ -11,17 +6,8 @@ from pandas import datetime
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib import rnn
-
 import matplotlib.pyplot as plt
 
-# This is a bit of magic to make matplotlib figures appear inline in the
-# notebook rather than in a new window.
-#plt.rcParams['figure.figsize'] = (10.0, 8.0) # set default size of plots
-#plt.rcParams['image.interpolation'] = 'nearest'
-#plt.rcParams['image.cmap'] = 'gray'
-
-
-# In[2]:
 
 iterations=10000
 #unrolled through these many time steps

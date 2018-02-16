@@ -17,7 +17,8 @@ source activate tf
 hostname
 
 #python -u mnist-deep.py
-python lstm/lstm_entropy.py
+python -u /home/rgangaraju/lstm/lstm_entropy.py
+python -u /home/rgangaraju/lstm/create_graph.py
 
 sleep 1
 exit
