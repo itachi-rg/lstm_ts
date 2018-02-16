@@ -103,7 +103,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
                 print("current_batch_length : ", current_batch_length)
                 current_batch_length += batch_size
 
-                sess.run(opt, feed_dict={x: X_train_samples, y: y_train_samples})
+                sess.run(opt, feed_dict={x: X_batch_samples, y: y_batch_samples})
 
             if iter%print_iter==0:
 
@@ -115,19 +115,19 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
             iter=iter+1
         
         # Get the predictions from the model to construct the graph
-        train_preds, train_loss, train_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_train_samples, y: y_train_samples})
+        #train_preds, train_loss, train_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_train_samples, y: y_train_samples})
         test_preds, test_loss, test_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_test_samples, y: y_test_samples})
 
 
-    test_plot = np.concatenate([X_train_samples[0], train_preds, test_preds])
+    #test_plot = np.concatenate([X_train_samples[0], train_preds, test_preds])
 
     print("Final test loss", test_loss, "Final test variance", test_variance)
     print("MSE/Variance ratio ", (test_loss/test_variance))
 
     # Write the entire series to a file, which can be used to later construct the graph
-    out = DataFrame(shifted_dataframe_narray)
-    out['1'] = test_plot
-    out.to_csv('orig_prediction.csv',sep=',',encoding='utf-8')
+    #out = DataFrame(shifted_dataframe_narray)
+    #out['1'] = test_plot
+    #out.to_csv('orig_prediction.csv',sep=',',encoding='utf-8')
 
 
 if __name__ == '__main__':
