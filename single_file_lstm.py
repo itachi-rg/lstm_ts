@@ -10,7 +10,7 @@ from tensorflow.contrib import rnn
 from pandas import DataFrame, Series, concat, read_csv, datetime
 from sklearn.utils import shuffle
 
-import operator
+import math
 
 def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=128, num_features=1, num_classes=1, batch_size=1024, learning_rate=0.001, split_percent=0.8, print_iter=100):
     #print(" Parameter values")
@@ -109,6 +109,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
                     current_batch_length += batch_size
 
                     batch_mean_loss, batch_loss_variance = sess.run([tf_mean_loss,tf_loss_variance],feed_dict={x: X_batch_samples, y: y_batch_samples})
+                    #print("Batch mean loss", batch_mean_loss, "Batch loss variance", batch_loss_variance)
                     mean_loss_list.append(batch_mean_loss)
                     loss_variance_list.append(batch_loss_variance)
                 
@@ -116,7 +117,7 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
                 loss_variance = np.mean(loss_variance_list)
                 print(iter, " : iteration , Mean Loss :", mean_loss, "Variance :", loss_variance, " MSE/Var :", (mean_loss/loss_variance) )
             else:
-                while (current_batch_length+batch_size)<num_train_samples:
+                while (current_batch_length+batch_size)<num_samples:
                     X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
                     y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
     
@@ -143,24 +144,20 @@ def train(training_file, iterations=5000, time_steps=50, num_lstm_hidden_units=1
     #out = DataFrame(shifted_dataframe_narray)
     #out['1'] = test_plot
     #out.to_csv('orig_prediction.csv',sep=',',encoding='utf-8')
-    return test_loss, test_variance
 
 
 if __name__ == '__main__':
-    filename = '/home/rgangaraju/chaos/entropy_data/xalan-smallJikesRVM-both-100k-64.entropy'
-    filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
-    files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
-    files.sort(reverse=True)
-    
-    result_dict = {}
-    for data_file in files:
-        tf.reset_default_graph()
-        print("File : ", data_file)
-        test_loss, test_variance = train(data_file, iterations=200, learning_rate=0.01,batch_size=65536,print_iter=50)
-        result_dict[data_file] = test_loss/test_variance
-        print("==================================================================")
+    #filename = '/home/rgangaraju/chaos/entropy_data/xalan-smallJikesRVM-both-100k-64.entropy'
+    filename = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/applu-ref-applu-data-100k-64.entropy'
+    train(filename, iterations=20, learning_rate=0.01,batch_size=65536,print_iter=1)
+    #filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
+    #files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
+    #files.sort()
 
-    sorted_dict = sorted(result_dict.items(), key=operator.itemgetter(1))
+    #for data_file in files:
+    #    tf.reset_default_graph()
+    #    print("File : ", data_file)
+    #    train(data_file, iterations=2000, learning_rate=0.01,batch_size=65536,print_iter=50)
+    #    print("==================================================================")
 
-    for (x,y) in sorted_dict:
-        print("file : ", x, " -- MSE --> ", y)
+
