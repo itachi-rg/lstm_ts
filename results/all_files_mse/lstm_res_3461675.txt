@@ -1,0 +1,801 @@
+node016
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.65663 Variance : 2.58459  MSE/Var : 0.254056
+100  : iteration , Mean Loss : 0.608324 Variance : 2.36993  MSE/Var : 0.256684
+150  : iteration , Mean Loss : 0.604126 Variance : 2.28792  MSE/Var : 0.264051
+Final test loss [ 0.47198278] Final test variance [ 1.54683638]
+MSE/Variance ratio  [ 0.3051278]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.962637 Variance : 1.47029  MSE/Var : 0.654727
+100  : iteration , Mean Loss : 0.652941 Variance : 1.37313  MSE/Var : 0.475512
+150  : iteration , Mean Loss : 0.596687 Variance : 1.69361  MSE/Var : 0.352316
+Final test loss [ 0.44879052] Final test variance [ 1.08259284]
+MSE/Variance ratio  [ 0.41455153]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy
+50  : iteration , Mean Loss : 0.616774 Variance : 3.98883  MSE/Var : 0.154625
+100  : iteration , Mean Loss : 0.574301 Variance : 3.67404  MSE/Var : 0.156313
+150  : iteration , Mean Loss : 0.566104 Variance : 3.56305  MSE/Var : 0.158882
+Final test loss [ 0.51980394] Final test variance [ 3.39610386]
+MSE/Variance ratio  [ 0.1530589]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 126.10749817] Final test variance [ 1406.54089355]
+MSE/Variance ratio  [ 0.0896579]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr2-both-100k-64.entropy
+50  : iteration , Mean Loss : 0.0304345 Variance : 0.0207387  MSE/Var : 1.46752
+100  : iteration , Mean Loss : 0.030372 Variance : 0.0199947  MSE/Var : 1.519
+150  : iteration , Mean Loss : 0.0301235 Variance : 0.0201179  MSE/Var : 1.49734
+Final test loss [ 0.03961861] Final test variance [ 0.04269702]
+MSE/Variance ratio  [ 0.92790103]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy
+50  : iteration , Mean Loss : 0.026615 Variance : 0.0531038  MSE/Var : 0.501188
+100  : iteration , Mean Loss : 0.0252787 Variance : 0.0468311  MSE/Var : 0.539784
+150  : iteration , Mean Loss : 0.023692 Variance : 0.0404494  MSE/Var : 0.585719
+Final test loss [ 0.06248552] Final test variance [ 0.02637689]
+MSE/Variance ratio  [ 2.36894941]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex3-inst-100k-64.entropy
+50  : iteration , Mean Loss : 1.08419 Variance : 6.67482  MSE/Var : 0.16243
+100  : iteration , Mean Loss : 0.99434 Variance : 6.45312  MSE/Var : 0.154087
+150  : iteration , Mean Loss : 0.968752 Variance : 6.58014  MSE/Var : 0.147223
+Final test loss [ 1.1435287] Final test variance [ 7.39523935]
+MSE/Variance ratio  [ 0.15463038]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.136156 Variance : 0.37699  MSE/Var : 0.361165
+100  : iteration , Mean Loss : 0.12824 Variance : 0.364268  MSE/Var : 0.352048
+150  : iteration , Mean Loss : 0.124495 Variance : 0.340162  MSE/Var : 0.365987
+Final test loss [ 0.13360211] Final test variance [ 0.37594542]
+MSE/Variance ratio  [ 0.35537636]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.558318 Variance : 0.915932  MSE/Var : 0.609563
+100  : iteration , Mean Loss : 0.498752 Variance : 0.918731  MSE/Var : 0.54287
+150  : iteration , Mean Loss : 0.482168 Variance : 0.876683  MSE/Var : 0.549992
+Final test loss [ 0.54299462] Final test variance [ 1.05555367]
+MSE/Variance ratio  [ 0.51441687]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/tomcat-defaultJikesRVM-both-1m-64.entropy
+50  : iteration , Mean Loss : 0.624172 Variance : 4.00145  MSE/Var : 0.155987
+100  : iteration , Mean Loss : 0.572385 Variance : 3.61115  MSE/Var : 0.158505
+150  : iteration , Mean Loss : 0.542073 Variance : 3.24504  MSE/Var : 0.167047
+Final test loss [ 0.25072443] Final test variance [ 1.21083605]
+MSE/Variance ratio  [ 0.20706721]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJikesRVM-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 7.10726023] Final test variance [ 3.88868022]
+MSE/Variance ratio  [ 1.82767928]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 18.79682732] Final test variance [ 14.14633369]
+MSE/Variance ratio  [ 1.32874203]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.544754 Variance : 1.10911  MSE/Var : 0.491162
+100  : iteration , Mean Loss : 0.38433 Variance : 1.11836  MSE/Var : 0.343654
+150  : iteration , Mean Loss : 0.390997 Variance : 1.16567  MSE/Var : 0.335428
+Final test loss [ 0.28541392] Final test variance [ 0.47929353]
+MSE/Variance ratio  [ 0.59548879]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallHotSpot-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 9.74997711] Final test variance [ 6.82175541]
+MSE/Variance ratio  [ 1.4292475]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-defaultJ9-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.355266 Variance : 0.623856  MSE/Var : 0.569468
+100  : iteration , Mean Loss : 0.257578 Variance : 0.514504  MSE/Var : 0.500635
+150  : iteration , Mean Loss : 0.247784 Variance : 0.540605  MSE/Var : 0.458346
+Final test loss [ 0.1167213] Final test variance [ 0.23878706]
+MSE/Variance ratio  [ 0.48880917]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-inst-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 21.2308979] Final test variance [ 138.41233826]
+MSE/Variance ratio  [ 0.15338877]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 1.73814821] Final test variance [ 10.38753223]
+MSE/Variance ratio  [ 0.16733024]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 1.34358883] Final test variance [ 1.64083791]
+MSE/Variance ratio  [ 0.81884313]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJ9-inst-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 40.89295578] Final test variance [ 241.82992554]
+MSE/Variance ratio  [ 0.16909799]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallHotSpot-inst-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 18.19610214] Final test variance [ 69.94072723]
+MSE/Variance ratio  [ 0.26016462]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-inst-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 11.6809473] Final test variance [ 58.9699707]
+MSE/Variance ratio  [ 0.19808298]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-data-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 96.81027222] Final test variance [ 994.69250488]
+MSE/Variance ratio  [ 0.09732684]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-3-trace-data-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 75.55569458] Final test variance [ 1014.25183105]
+MSE/Variance ratio  [ 0.07449402]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-1-trace-inst-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 14.59101295] Final test variance [ 76.25099182]
+MSE/Variance ratio  [ 0.19135506]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-0-trace-inst-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 20.24123192] Final test variance [ 99.60494995]
+MSE/Variance ratio  [ 0.20321512]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJikesRVM-data-100k-64.entropy
+50  : iteration , Mean Loss : 1.00347 Variance : 6.28364  MSE/Var : 0.159695
+100  : iteration , Mean Loss : 0.72584 Variance : 3.75355  MSE/Var : 0.193374
+150  : iteration , Mean Loss : 0.580747 Variance : 3.11176  MSE/Var : 0.18663
+Final test loss [ 0.41331983] Final test variance [ 1.87669134]
+MSE/Variance ratio  [ 0.22023858]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-inst-100k-64.entropy
+50  : iteration , Mean Loss : 0.60279 Variance : 4.53104  MSE/Var : 0.133036
+100  : iteration , Mean Loss : 0.589174 Variance : 4.27106  MSE/Var : 0.137945
+150  : iteration , Mean Loss : 0.581591 Variance : 4.14734  MSE/Var : 0.140232
+Final test loss [ 0.69508052] Final test variance [ 2.79716539]
+MSE/Variance ratio  [ 0.24849461]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 19.7456646] Final test variance [ 26.57871246]
+MSE/Variance ratio  [ 0.74291277]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultHotSpot-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 30.93844795] Final test variance [ 130.94871521]
+MSE/Variance ratio  [ 0.23626386]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk6-inst-100k-4096.entropy
+50  : iteration , Mean Loss : 0.00597509 Variance : 0.000361446  MSE/Var : 16.5311
+100  : iteration , Mean Loss : 0.00582472 Variance : 0.000167892  MSE/Var : 34.6933
+150  : iteration , Mean Loss : 0.00586109 Variance : 0.00036363  MSE/Var : 16.1183
+Final test loss [ 0.00015358] Final test variance [  3.43919492e-05]
+MSE/Variance ratio  [ 4.46547508]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk5-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 43.12602234] Final test variance [ 0.06764335]
+MSE/Variance ratio  [ 637.55004883]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk3-inst-100k-4096.entropy
+50  : iteration , Mean Loss : 0.175078 Variance : 1.2216  MSE/Var : 0.143318
+100  : iteration , Mean Loss : 0.124935 Variance : 0.617738  MSE/Var : 0.202246
+150  : iteration , Mean Loss : 0.0991516 Variance : 0.395555  MSE/Var : 0.250665
+Final test loss [ 0.08048777] Final test variance [ 0.38904026]
+MSE/Variance ratio  [ 0.20688801]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk2-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.0677657 Variance : 0.0563998  MSE/Var : 1.20152
+100  : iteration , Mean Loss : 0.0548152 Variance : 0.0428238  MSE/Var : 1.28002
+150  : iteration , Mean Loss : 0.0513642 Variance : 0.0272006  MSE/Var : 1.88835
+Final test loss [ 0.08147721] Final test variance [ 0.17521188]
+MSE/Variance ratio  [ 0.46502104]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk1-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 2.39160609] Final test variance [ 14.6026535]
+MSE/Variance ratio  [ 0.16377887]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-inst-1m-64.entropy
+50  : iteration , Mean Loss : 0.857038 Variance : 5.89944  MSE/Var : 0.145275
+100  : iteration , Mean Loss : 0.832166 Variance : 6.44301  MSE/Var : 0.129158
+150  : iteration , Mean Loss : 0.805951 Variance : 6.01181  MSE/Var : 0.134061
+Final test loss [ 0.81549102] Final test variance [ 6.03178501]
+MSE/Variance ratio  [ 0.13519895]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.335866 Variance : 1.82286  MSE/Var : 0.184253
+100  : iteration , Mean Loss : 0.331955 Variance : 1.75718  MSE/Var : 0.188914
+150  : iteration , Mean Loss : 0.32205 Variance : 1.96858  MSE/Var : 0.163595
+Final test loss [ 0.31459969] Final test variance [ 1.91208577]
+MSE/Variance ratio  [ 0.16453221]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mesa-ref-mesa-data-100k-64.entropy
+50  : iteration , Mean Loss : 0.417004 Variance : 7.50478  MSE/Var : 0.0555651
+100  : iteration , Mean Loss : 0.415133 Variance : 7.32477  MSE/Var : 0.0566753
+150  : iteration , Mean Loss : 0.271443 Variance : 3.21236  MSE/Var : 0.0844996
+Final test loss [ 0.30735409] Final test variance [ 3.56779337]
+MSE/Variance ratio  [ 0.08614683]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mcf-ref-mcf-data-100k-64.entropy
+50  : iteration , Mean Loss : 2.87358 Variance : 19.4176  MSE/Var : 0.147988
+100  : iteration , Mean Loss : 2.45784 Variance : 15.1456  MSE/Var : 0.162281
+150  : iteration , Mean Loss : 1.78637 Variance : 13.0586  MSE/Var : 0.136797
+Final test loss [ 0.32781887] Final test variance [ 3.7684021]
+MSE/Variance ratio  [ 0.08699148]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallJikesRVM-both-100k-64.entropy
+50  : iteration , Mean Loss : 1.32925 Variance : 2.49746  MSE/Var : 0.53224
+100  : iteration , Mean Loss : 1.18514 Variance : 1.85136  MSE/Var : 0.640146
+150  : iteration , Mean Loss : 0.993215 Variance : 1.3969  MSE/Var : 0.711014
+Final test loss [ 0.90075892] Final test variance [ 1.51008904]
+MSE/Variance ratio  [ 0.5964939]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallHotSpot-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 52.13157272] Final test variance [ 223.3494873]
+MSE/Variance ratio  [ 0.23340806]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJikesRVM-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.44958 Variance : 0.459201  MSE/Var : 0.979047
+100  : iteration , Mean Loss : 0.446469 Variance : 0.441499  MSE/Var : 1.01126
+150  : iteration , Mean Loss : 0.441205 Variance : 0.413945  MSE/Var : 1.06585
+Final test loss [ 0.44355422] Final test variance [ 0.43986097]
+MSE/Variance ratio  [ 1.00839639]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJ9-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.813564 Variance : 4.24602  MSE/Var : 0.191606
+100  : iteration , Mean Loss : 0.784067 Variance : 3.76533  MSE/Var : 0.208233
+150  : iteration , Mean Loss : 0.741108 Variance : 3.47401  MSE/Var : 0.213329
+Final test loss [ 0.40650395] Final test variance [ 1.46956575]
+MSE/Variance ratio  [ 0.27661502]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-inst-100k-64.entropy
+50  : iteration , Mean Loss : 1.13907 Variance : 7.93477  MSE/Var : 0.143555
+100  : iteration , Mean Loss : 1.02533 Variance : 8.07371  MSE/Var : 0.126996
+150  : iteration , Mean Loss : 1.0055 Variance : 7.91667  MSE/Var : 0.127011
+Final test loss [ 0.89240223] Final test variance [ 8.92928982]
+MSE/Variance ratio  [ 0.09994101]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-both-100k-64.entropy
+50  : iteration , Mean Loss : 1.16471 Variance : 4.3528  MSE/Var : 0.267576
+100  : iteration , Mean Loss : 0.996832 Variance : 5.72419  MSE/Var : 0.174144
+150  : iteration , Mean Loss : 0.931198 Variance : 4.74012  MSE/Var : 0.19645
+Final test loss [ 0.95162636] Final test variance [ 6.14280462]
+MSE/Variance ratio  [ 0.15491724]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-smallJikesRVM-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 14.23703861] Final test variance [ 34.54193115]
+MSE/Variance ratio  [ 0.41216683]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 50.73887253] Final test variance [ 173.53781128]
+MSE/Variance ratio  [ 0.29237935]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 18.61227608] Final test variance [ 34.45022583]
+MSE/Variance ratio  [ 0.54026574]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultHotSpot-data-100k-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 8.67594337] Final test variance [ 20.51076889]
+MSE/Variance ratio  [ 0.42299455]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-smallJikesRVM-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 16.6747303] Final test variance [ 21.50916481]
+MSE/Variance ratio  [ 0.77523839]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-inst-100k-64.entropy
+50  : iteration , Mean Loss : 0.516833 Variance : 3.48909  MSE/Var : 0.148128
+100  : iteration , Mean Loss : 0.495991 Variance : 3.36066  MSE/Var : 0.147587
+150  : iteration , Mean Loss : 0.463683 Variance : 3.17565  MSE/Var : 0.146012
+Final test loss [ 0.26007518] Final test variance [ 1.53589272]
+MSE/Variance ratio  [ 0.16933161]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.556189 Variance : 0.778341  MSE/Var : 0.714583
+100  : iteration , Mean Loss : 0.188879 Variance : 0.698995  MSE/Var : 0.270215
+150  : iteration , Mean Loss : 0.176491 Variance : 0.601403  MSE/Var : 0.293465
+Final test loss [ 0.06615673] Final test variance [ 0.22349285]
+MSE/Variance ratio  [ 0.29601273]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyJikesRVM-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 59.43644333] Final test variance [ 347.75042725]
+MSE/Variance ratio  [ 0.17091696]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyHotSpot-both-100k-64.entropy
+50  : iteration , Mean Loss : 0.765153 Variance : 3.30254  MSE/Var : 0.231686
+100  : iteration , Mean Loss : 0.748006 Variance : 3.30687  MSE/Var : 0.226198
+150  : iteration , Mean Loss : 0.728016 Variance : 3.21411  MSE/Var : 0.226506
+Final test loss [ 0.47726801] Final test variance [ 1.85902154]
+MSE/Variance ratio  [ 0.25673077]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-inst-100k-64.entropy
+50  : iteration , Mean Loss : 0.313611 Variance : 2.6748  MSE/Var : 0.117247
+100  : iteration , Mean Loss : 0.304984 Variance : 2.48243  MSE/Var : 0.122857
+150  : iteration , Mean Loss : 0.301271 Variance : 2.45334  MSE/Var : 0.1228
+Final test loss [ 0.25939256] Final test variance [ 2.05070519]
+MSE/Variance ratio  [ 0.12648945]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 4.72475958] Final test variance [ 2.51314831]
+MSE/Variance ratio  [ 1.88001621]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 17.48412514] Final test variance [ 39.76978302]
+MSE/Variance ratio  [ 0.4396334]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.485345 Variance : 1.10282  MSE/Var : 0.440094
+100  : iteration , Mean Loss : 0.421072 Variance : 0.967746  MSE/Var : 0.435106
+150  : iteration , Mean Loss : 0.414649 Variance : 0.956364  MSE/Var : 0.433568
+Final test loss [ 0.44774231] Final test variance [ 0.82683367]
+MSE/Variance ratio  [ 0.5415144]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJikesRVM-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.062896 Variance : 0.242427  MSE/Var : 0.259443
+100  : iteration , Mean Loss : 0.0604383 Variance : 0.228023  MSE/Var : 0.265054
+150  : iteration , Mean Loss : 0.0578774 Variance : 0.214154  MSE/Var : 0.270261
+Final test loss [ 0.02984919] Final test variance [ 0.06376099]
+MSE/Variance ratio  [ 0.46814197]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJ9-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.191521 Variance : 0.59942  MSE/Var : 0.319511
+100  : iteration , Mean Loss : 0.190154 Variance : 0.578656  MSE/Var : 0.328613
+150  : iteration , Mean Loss : 0.181254 Variance : 0.528863  MSE/Var : 0.342724
+Final test loss [ 0.21673952] Final test variance [ 0.45607412]
+MSE/Variance ratio  [ 0.47522873]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultHotSpot-both-1m-64.entropy
+50  : iteration , Mean Loss : 1.54403 Variance : 3.48399  MSE/Var : 0.443178
+100  : iteration , Mean Loss : 0.56253 Variance : 3.16727  MSE/Var : 0.177607
+150  : iteration , Mean Loss : 0.55546 Variance : 3.17775  MSE/Var : 0.174797
+Final test loss [ 0.75666422] Final test variance [ 3.5279851]
+MSE/Variance ratio  [ 0.21447489]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc15-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.279426 Variance : 0.372247  MSE/Var : 0.750647
+100  : iteration , Mean Loss : 0.242299 Variance : 0.281275  MSE/Var : 0.861432
+150  : iteration , Mean Loss : 0.22656 Variance : 0.263953  MSE/Var : 0.858333
+Final test loss [ 0.20320818] Final test variance [ 0.31217632]
+MSE/Variance ratio  [ 0.65094042]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 1.23627043] Final test variance [ 2.7977047]
+MSE/Variance ratio  [ 0.44188738]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/galgel-ref-galgel-inst-100k-64.entropy
+50  : iteration , Mean Loss : 0.0160274 Variance : 0.029598  MSE/Var : 0.541504
+100  : iteration , Mean Loss : 0.0202219 Variance : 0.0288974  MSE/Var : 0.699783
+150  : iteration , Mean Loss : 0.0127665 Variance : 0.022367  MSE/Var : 0.570775
+Final test loss [ 0.01786014] Final test variance [ 0.02451105]
+MSE/Variance ratio  [ 0.72865671]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-smallJ9-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 142.75622559] Final test variance [ 939.07592773]
+MSE/Variance ratio  [ 0.15201777]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultJ9-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 46.00839615] Final test variance [ 328.24234009]
+MSE/Variance ratio  [ 0.14016594]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 1.28027892] Final test variance [ 3.35663152]
+MSE/Variance ratio  [ 0.38141778]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.60283 Variance : 1.58635  MSE/Var : 0.38001
+100  : iteration , Mean Loss : 0.591864 Variance : 1.54646  MSE/Var : 0.382722
+150  : iteration , Mean Loss : 0.577542 Variance : 1.46363  MSE/Var : 0.394595
+Final test loss [ 0.48309448] Final test variance [ 1.05566156]
+MSE/Variance ratio  [ 0.4576225]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/equake-ref-equake-both-1m-64.entropy
+50  : iteration , Mean Loss : 0.184022 Variance : 0.107359  MSE/Var : 1.71408
+100  : iteration , Mean Loss : 0.127654 Variance : 0.133129  MSE/Var : 0.958875
+150  : iteration , Mean Loss : 0.104861 Variance : 0.177938  MSE/Var : 0.589308
+Final test loss [ 0.10772661] Final test variance [ 0.20166552]
+MSE/Variance ratio  [ 0.53418458]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallJ9-data-100k-64.entropy
+50  : iteration , Mean Loss : 1.21187 Variance : 5.68375  MSE/Var : 0.213216
+100  : iteration , Mean Loss : 0.980597 Variance : 2.93191  MSE/Var : 0.334457
+150  : iteration , Mean Loss : 0.811809 Variance : 1.93605  MSE/Var : 0.419312
+Final test loss [ 0.65965617] Final test variance [ 1.62357342]
+MSE/Variance ratio  [ 0.40629894]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 67.86647797] Final test variance [ 299.03686523]
+MSE/Variance ratio  [ 0.2269502]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-100k-64.entropy
+50  : iteration , Mean Loss : 1.08385 Variance : 2.67306  MSE/Var : 0.405473
+100  : iteration , Mean Loss : 0.889457 Variance : 2.09844  MSE/Var : 0.423866
+150  : iteration , Mean Loss : 0.648557 Variance : 2.14704  MSE/Var : 0.30207
+Final test loss [ 0.88323462] Final test variance [ 3.76482272]
+MSE/Variance ratio  [ 0.23460191]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJikesRVM-inst-1m-64.entropy
+50  : iteration , Mean Loss : 0.97913 Variance : 7.12484  MSE/Var : 0.137425
+100  : iteration , Mean Loss : 0.87798 Variance : 7.46455  MSE/Var : 0.11762
+150  : iteration , Mean Loss : 0.875301 Variance : 7.52755  MSE/Var : 0.11628
+Final test loss [ 0.57699448] Final test variance [ 5.16319847]
+MSE/Variance ratio  [ 0.11175136]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 11.99863434] Final test variance [ 24.38862419]
+MSE/Variance ratio  [ 0.49197668]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.805968 Variance : 1.36389  MSE/Var : 0.590932
+100  : iteration , Mean Loss : 0.617547 Variance : 1.38918  MSE/Var : 0.44454
+150  : iteration , Mean Loss : 0.609768 Variance : 1.31437  MSE/Var : 0.463923
+Final test loss [ 0.66005683] Final test variance [ 1.79002964]
+MSE/Variance ratio  [ 0.36874074]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultHotSpot-both-100k-64.entropy
+50  : iteration , Mean Loss : 0.758574 Variance : 2.88773  MSE/Var : 0.262688
+100  : iteration , Mean Loss : 0.752852 Variance : 2.90378  MSE/Var : 0.259266
+150  : iteration , Mean Loss : 0.751535 Variance : 2.90639  MSE/Var : 0.258581
+Final test loss [ 0.88064224] Final test variance [ 5.2291975]
+MSE/Variance ratio  [ 0.16840868]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/crafty-ref-crafty-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.00350955 Variance : 0.000350943  MSE/Var : 10.0003
+100  : iteration , Mean Loss : 0.00340246 Variance : 0.000344443  MSE/Var : 9.87813
+150  : iteration , Mean Loss : 0.00327693 Variance : 0.000336545  MSE/Var : 9.73698
+Final test loss [ 0.00397226] Final test variance [ 0.00142173]
+MSE/Variance ratio  [ 2.7939682]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip23-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.288009 Variance : 1.10422  MSE/Var : 0.260825
+100  : iteration , Mean Loss : 0.284552 Variance : 1.08061  MSE/Var : 0.263324
+150  : iteration , Mean Loss : 0.279923 Variance : 1.01331  MSE/Var : 0.276246
+Final test loss [ 0.14358672] Final test variance [ 0.39554712]
+MSE/Variance ratio  [ 0.36300787]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.18119 Variance : 0.810332  MSE/Var : 0.2236
+100  : iteration , Mean Loss : 0.17798 Variance : 0.815652  MSE/Var : 0.218205
+150  : iteration , Mean Loss : 0.175814 Variance : 0.803498  MSE/Var : 0.218811
+Final test loss [ 0.0720674] Final test variance [ 0.22895373]
+MSE/Variance ratio  [ 0.3147684]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-both-100k-4096.entropy
+50  : iteration , Mean Loss : 0.0162065 Variance : 0.00610026  MSE/Var : 2.65668
+100  : iteration , Mean Loss : 0.0159794 Variance : 0.00598383  MSE/Var : 2.67044
+150  : iteration , Mean Loss : 0.0158793 Variance : 0.00580104  MSE/Var : 2.73732
+Final test loss [ 0.0141291] Final test variance [ 0.0027587]
+MSE/Variance ratio  [ 5.1216507]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-inst-1m-64.entropy
+50  : iteration , Mean Loss : 0.454641 Variance : 2.52865  MSE/Var : 0.179796
+100  : iteration , Mean Loss : 0.360368 Variance : 2.07827  MSE/Var : 0.173398
+150  : iteration , Mean Loss : 0.328267 Variance : 1.8349  MSE/Var : 0.178901
+Final test loss [ 0.33344096] Final test variance [ 2.42813897]
+MSE/Variance ratio  [ 0.13732368]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-both-1m-4096.entropy
+50  : iteration , Mean Loss : 0.0913269 Variance : 0.0679997  MSE/Var : 1.34305
+100  : iteration , Mean Loss : 0.067155 Variance : 0.0648783  MSE/Var : 1.03509
+150  : iteration , Mean Loss : 0.0621517 Variance : 0.0608244  MSE/Var : 1.02182
+Final test loss [ 0.04565523] Final test variance [ 0.04420283]
+MSE/Variance ratio  [ 1.03285754]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 128.47149658] Final test variance [ 3069.40112305]
+MSE/Variance ratio  [ 0.04185556]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-100k-64.entropy
+50  : iteration , Mean Loss : 0.910328 Variance : 3.62356  MSE/Var : 0.251225
+100  : iteration , Mean Loss : 0.743322 Variance : 3.61217  MSE/Var : 0.205782
+150  : iteration , Mean Loss : 0.742894 Variance : 3.71149  MSE/Var : 0.20016
+Final test loss [ 0.70967948] Final test variance [ 2.00003362]
+MSE/Variance ratio  [ 0.35483378]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 10.35036659] Final test variance [ 140.4243927]
+MSE/Variance ratio  [ 0.07370775]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 14.58708286] Final test variance [ 78.42579651]
+MSE/Variance ratio  [ 0.18599853]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 9.16656876] Final test variance [ 21.77689171]
+MSE/Variance ratio  [ 0.42093101]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultJ9-data-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 54.11186981] Final test variance [ 238.29725647]
+MSE/Variance ratio  [ 0.22707719]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultHotSpot-both-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 42.89802551] Final test variance [ 584.31933594]
+MSE/Variance ratio  [ 0.07341538]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJikesRVM-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 55.53954697] Final test variance [ 36.19782257]
+MSE/Variance ratio  [ 1.53433394]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 25.33399963] Final test variance [ 174.699646]
+MSE/Variance ratio  [ 0.1450146]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-data-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 47.59191513] Final test variance [ 178.37800598]
+MSE/Variance ratio  [ 0.26680371]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-inst-100k-64.entropy
+50  : iteration , Mean Loss : 1.099 Variance : 4.87383  MSE/Var : 0.22549
+100  : iteration , Mean Loss : 1.05753 Variance : 4.53998  MSE/Var : 0.232938
+150  : iteration , Mean Loss : 0.881299 Variance : 2.80816  MSE/Var : 0.313835
+Final test loss [ 0.8581937] Final test variance [ 2.99079704]
+MSE/Variance ratio  [ 0.28694481]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.44942 Variance : 0.433968  MSE/Var : 1.03561
+100  : iteration , Mean Loss : 0.441283 Variance : 0.431215  MSE/Var : 1.02335
+150  : iteration , Mean Loss : 0.433416 Variance : 0.432143  MSE/Var : 1.00295
+Final test loss [ 0.41018265] Final test variance [ 0.36579189]
+MSE/Variance ratio  [ 1.1213553]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 69.42014313] Final test variance [ 1232.77355957]
+MSE/Variance ratio  [ 0.05631216]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-100k-64.entropy
+50  : iteration , Mean Loss : 3.6358 Variance : 41.34  MSE/Var : 0.0879488
+100  : iteration , Mean Loss : 3.60068 Variance : 40.9372  MSE/Var : 0.0879562
+150  : iteration , Mean Loss : 3.48917 Variance : 38.8998  MSE/Var : 0.0896965
+Final test loss [ 3.78625154] Final test variance [ 44.14242554]
+MSE/Variance ratio  [ 0.08577353]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-inst-1m-64.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 16.07035065] Final test variance [ 35.65423584]
+MSE/Variance ratio  [ 0.45072767]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-both-1m-4096.entropy
+50  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+100  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+150  : iteration , Mean Loss : nan Variance : nan  MSE/Var : nan
+Final test loss [ 0.89466274] Final test variance [ 1.21087348]
+MSE/Variance ratio  [ 0.73885733]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/apsi-ref-apsi-data-100k-4096.entropy
+50  : iteration , Mean Loss : 0.0402018 Variance : 0.580454  MSE/Var : 0.0692593
+100  : iteration , Mean Loss : 0.0389358 Variance : 0.553897  MSE/Var : 0.0702942
+150  : iteration , Mean Loss : 0.0567969 Variance : 0.507207  MSE/Var : 0.11198
+Final test loss [ 0.0308144] Final test variance [ 0.59172618]
+MSE/Variance ratio  [ 0.05207544]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/applu-ref-applu-data-100k-64.entropy
+50  : iteration , Mean Loss : 0.0466028 Variance : 0.650966  MSE/Var : 0.0715901
+100  : iteration , Mean Loss : 0.0370711 Variance : 0.463621  MSE/Var : 0.0799599
+150  : iteration , Mean Loss : 0.0329142 Variance : 0.326496  MSE/Var : 0.10081
+Final test loss [ 0.02372275] Final test variance [ 0.26977435]
+MSE/Variance ratio  [ 0.08793554]
+==================================================================
+File :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/ammp-ref-ammp-data-1m-4096.entropy
+50  : iteration , Mean Loss : 0.8541 Variance : 6.20532  MSE/Var : 0.13764
+100  : iteration , Mean Loss : 0.659549 Variance : 8.02171  MSE/Var : 0.0822205
+150  : iteration , Mean Loss : 0.541008 Variance : 5.49744  MSE/Var : 0.098411
+Final test loss [ 0.46889716] Final test variance [ 4.59046412]
+MSE/Variance ratio  [ 0.10214592]
+==================================================================
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-1m-64.entropy  -- MSE -->  [ 0.04185556]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/apsi-ref-apsi-data-100k-4096.entropy  -- MSE -->  [ 0.05207544]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-1m-64.entropy  -- MSE -->  [ 0.05631216]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultHotSpot-both-1m-64.entropy  -- MSE -->  [ 0.07341538]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-inst-1m-64.entropy  -- MSE -->  [ 0.07370775]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-3-trace-data-1m-64.entropy  -- MSE -->  [ 0.07449402]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-100k-64.entropy  -- MSE -->  [ 0.08577353]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mesa-ref-mesa-data-100k-64.entropy  -- MSE -->  [ 0.08614683]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mcf-ref-mcf-data-100k-64.entropy  -- MSE -->  [ 0.08699148]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/applu-ref-applu-data-100k-64.entropy  -- MSE -->  [ 0.08793554]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy  -- MSE -->  [ 0.0896579]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-data-100k-4096.entropy  -- MSE -->  [ 0.09732684]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-inst-100k-64.entropy  -- MSE -->  [ 0.09994101]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/ammp-ref-ammp-data-1m-4096.entropy  -- MSE -->  [ 0.10214592]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJikesRVM-inst-1m-64.entropy  -- MSE -->  [ 0.11175136]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-inst-100k-64.entropy  -- MSE -->  [ 0.12648945]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-inst-1m-64.entropy  -- MSE -->  [ 0.13519895]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-inst-1m-64.entropy  -- MSE -->  [ 0.13732368]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultJ9-both-1m-64.entropy  -- MSE -->  [ 0.14016594]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-inst-1m-64.entropy  -- MSE -->  [ 0.1450146]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-smallJ9-both-1m-64.entropy  -- MSE -->  [ 0.15201777]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy  -- MSE -->  [ 0.1530589]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-inst-100k-4096.entropy  -- MSE -->  [ 0.15338877]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex3-inst-100k-64.entropy  -- MSE -->  [ 0.15463038]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-both-100k-64.entropy  -- MSE -->  [ 0.15491724]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk1-both-1m-4096.entropy  -- MSE -->  [ 0.16377887]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-data-100k-4096.entropy  -- MSE -->  [ 0.16453221]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-64.entropy  -- MSE -->  [ 0.16733024]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultHotSpot-both-100k-64.entropy  -- MSE -->  [ 0.16840868]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJ9-inst-1m-4096.entropy  -- MSE -->  [ 0.16909799]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-inst-100k-64.entropy  -- MSE -->  [ 0.16933161]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyJikesRVM-inst-1m-64.entropy  -- MSE -->  [ 0.17091696]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-64.entropy  -- MSE -->  [ 0.18599853]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-1-trace-inst-100k-4096.entropy  -- MSE -->  [ 0.19135506]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-inst-100k-4096.entropy  -- MSE -->  [ 0.19808298]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-0-trace-inst-100k-4096.entropy  -- MSE -->  [ 0.20321512]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk3-inst-100k-4096.entropy  -- MSE -->  [ 0.20688801]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/tomcat-defaultJikesRVM-both-1m-64.entropy  -- MSE -->  [ 0.20706721]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultHotSpot-both-1m-64.entropy  -- MSE -->  [ 0.21447489]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJikesRVM-data-100k-64.entropy  -- MSE -->  [ 0.22023858]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-1m-4096.entropy  -- MSE -->  [ 0.2269502]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultJ9-data-1m-4096.entropy  -- MSE -->  [ 0.22707719]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallHotSpot-both-1m-64.entropy  -- MSE -->  [ 0.23340806]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-100k-64.entropy  -- MSE -->  [ 0.23460191]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultHotSpot-inst-1m-64.entropy  -- MSE -->  [ 0.23626386]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-inst-100k-64.entropy  -- MSE -->  [ 0.24849461]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyHotSpot-both-100k-64.entropy  -- MSE -->  [ 0.25673077]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallHotSpot-inst-1m-4096.entropy  -- MSE -->  [ 0.26016462]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-data-1m-64.entropy  -- MSE -->  [ 0.26680371]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJ9-both-100k-4096.entropy  -- MSE -->  [ 0.27661502]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-inst-100k-64.entropy  -- MSE -->  [ 0.28694481]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-inst-1m-64.entropy  -- MSE -->  [ 0.29237935]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-both-1m-4096.entropy  -- MSE -->  [ 0.29601273]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy  -- MSE -->  [ 0.3051278]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-data-100k-4096.entropy  -- MSE -->  [ 0.3147684]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-100k-64.entropy  -- MSE -->  [ 0.35483378]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-data-100k-4096.entropy  -- MSE -->  [ 0.35537636]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip23-data-100k-4096.entropy  -- MSE -->  [ 0.36300787]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-both-1m-4096.entropy  -- MSE -->  [ 0.36874074]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-1m-4096.entropy  -- MSE -->  [ 0.38141778]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallJ9-data-100k-64.entropy  -- MSE -->  [ 0.40629894]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-smallJikesRVM-both-1m-4096.entropy  -- MSE -->  [ 0.41216683]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy  -- MSE -->  [ 0.41455153]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-4096.entropy  -- MSE -->  [ 0.42093101]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultHotSpot-data-100k-64.entropy  -- MSE -->  [ 0.42299455]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-data-1m-4096.entropy  -- MSE -->  [ 0.4396334]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy  -- MSE -->  [ 0.44188738]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-inst-1m-64.entropy  -- MSE -->  [ 0.45072767]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-100k-4096.entropy  -- MSE -->  [ 0.4576225]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk2-data-100k-4096.entropy  -- MSE -->  [ 0.46502104]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJikesRVM-both-1m-4096.entropy  -- MSE -->  [ 0.46814197]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJ9-both-100k-4096.entropy  -- MSE -->  [ 0.47522873]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-defaultJ9-both-1m-4096.entropy  -- MSE -->  [ 0.48880917]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-data-1m-4096.entropy  -- MSE -->  [ 0.49197668]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-both-100k-4096.entropy  -- MSE -->  [ 0.51441687]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/equake-ref-equake-both-1m-64.entropy  -- MSE -->  [ 0.53418458]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-data-1m-4096.entropy  -- MSE -->  [ 0.54026574]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-both-1m-4096.entropy  -- MSE -->  [ 0.5415144]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-both-100k-4096.entropy  -- MSE -->  [ 0.59548879]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallJikesRVM-both-100k-64.entropy  -- MSE -->  [ 0.5964939]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc15-both-100k-4096.entropy  -- MSE -->  [ 0.65094042]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/galgel-ref-galgel-inst-100k-64.entropy  -- MSE -->  [ 0.72865671]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-both-1m-4096.entropy  -- MSE -->  [ 0.73885733]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-data-1m-4096.entropy  -- MSE -->  [ 0.74291277]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-smallJikesRVM-data-1m-4096.entropy  -- MSE -->  [ 0.77523839]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-4096.entropy  -- MSE -->  [ 0.81884313]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr2-both-100k-64.entropy  -- MSE -->  [ 0.92790103]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJikesRVM-data-100k-4096.entropy  -- MSE -->  [ 1.00839639]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-both-1m-4096.entropy  -- MSE -->  [ 1.03285754]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-data-100k-4096.entropy  -- MSE -->  [ 1.1213553]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-data-1m-4096.entropy  -- MSE -->  [ 1.32874203]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallHotSpot-both-1m-4096.entropy  -- MSE -->  [ 1.4292475]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJikesRVM-inst-1m-64.entropy  -- MSE -->  [ 1.53433394]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJikesRVM-both-1m-4096.entropy  -- MSE -->  [ 1.82767928]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-data-1m-4096.entropy  -- MSE -->  [ 1.88001621]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy  -- MSE -->  [ 2.36894941]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/crafty-ref-crafty-data-100k-4096.entropy  -- MSE -->  [ 2.7939682]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk6-inst-100k-4096.entropy  -- MSE -->  [ 4.46547508]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-both-100k-4096.entropy  -- MSE -->  [ 5.1216507]
+file :  /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk5-data-1m-4096.entropy  -- MSE -->  [ 637.55004883]
