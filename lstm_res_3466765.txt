@@ -1,0 +1,32 @@
+node023
+ Parameter values
+ Iterations :  1000
+ time_steps :  50
+learning rat:  0.01
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy
+File vector  [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]
+1  : iteration , Mean Loss : 44.4519 Variance : 307.876  MSE/Var : 0.144383
+Final test loss [ 43.80057907] Final test variance [ 364.47192383]
+MSE/Variance ratio  [ 0.12017545]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy
+File vector  [1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0]
+1  : iteration , Mean Loss : 41.8032 Variance : 290.806  MSE/Var : 0.143749
+Final test loss [ 54.90924835] Final test variance [ 414.21377563]
+MSE/Variance ratio  [ 0.13256258]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy
+File vector  [1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1]
+1  : iteration , Mean Loss : 36.6411 Variance : 283.836  MSE/Var : 0.129093
+Final test loss [ 36.74811554] Final test variance [ 257.59231567]
+MSE/Variance ratio  [ 0.14265998]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy
+File vector  [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1]
+1  : iteration , Mean Loss : 122.584 Variance : 1349.41  MSE/Var : 0.0908423
+Final test loss [ 113.51137543] Final test variance [ 1593.5892334]
+MSE/Variance ratio  [ 0.07123001]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr2-both-100k-64.entropy
+File vector  [0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1]
+1  : iteration , Mean Loss : 42.5034 Variance : 23.7425  MSE/Var : 1.79018
+Final test loss [ 45.01717377] Final test variance [ 14.93004608]
+MSE/Variance ratio  [ 3.01520658]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy
+File vector  [0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1]

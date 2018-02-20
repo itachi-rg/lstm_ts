@@ -11,6 +11,7 @@ from pandas import DataFrame, Series, concat, read_csv, datetime
 from sklearn.utils import shuffle
 
 import operator
+import gc
 
 def getbin(value, width):
     return format(value, "0"+str(width)+"b")
@@ -30,19 +31,21 @@ def getFileVector(absolute_path):
     data_inst_vector = splitnames[-3]
     benchmark_vector = ''.join(splitnames[1:-3])
     prog_vector = splitnames[0]
-    print("filename ", filename)
-    print(prog_vector,benchmark_vector,data_inst_vector,block_size_vector,cpu_arch_vector)
+    #print("filename ", filename)
+    #print(prog_vector,benchmark_vector,data_inst_vector,block_size_vector,cpu_arch_vector)
     vector_string += getbin(prog[prog_vector], 5)
     vector_string += getbin(benchmark[benchmark_vector], 6)
     vector_string += getbin(data_inst[data_inst_vector],2)
     vector_string += getbin(block_size[block_size_vector],1)
     vector_string += getbin(cpu_arch[cpu_arch_vector],1)
-    print("vector string ",vector_string)
+    #print("vector string ",vector_string)
     vector = [int(bit) for bit in list(vector_string)]
-    print("vector ", vector)
+    #print("vector ", vector)
     return vector
 
-def getData(training_file, time_steps):
+def getData(training_file, time_steps, split_percent):
+    print("Train on file",training_file)
+
     series = read_csv(training_file)
 
     file_vector = getFileVector(training_file)
@@ -100,11 +103,15 @@ def getData(training_file, time_steps):
     return X_train_samples, y_train_samples, X_test_samples, y_test_samples
 
 
-def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=128, num_features=1, num_classes=1, batch_size=1024, learning_rate=0.001, split_percent=0.8, print_iter=100):
-    #print(" Parameter values")
-    #print(" Iterations : ", iterations)
-    #print(" time_steps : ", time_steps)
-    #print("learning rat: ", learning_rate)
+def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=128, num_classes=1, batch_size=1024, learning_rate=0.001, split_percent=0.8, print_iter=100):
+    print(" Parameter values")
+    print(" Iterations : ", iterations)
+    print(" time_steps : ", time_steps)
+    print("learning rat: ", learning_rate)
+
+    file_vector_size = 15
+    time_series_feature = 1
+    num_features = file_vector_size + time_series_feature
 
     # Create static graph
     #input image placeholder
@@ -152,8 +159,8 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 
         iter=1
         while iter<iterations:
-            for data_file in files:
-                X_train_samples, y_train_samples, X_test_samples, y_test_samples = getData(data_file, time_steps)
+            for data_file in training_files:
+                X_train_samples, y_train_samples, X_test_samples, y_test_samples = getData(data_file, time_steps,split_percent)
 
                 num_train_samples = X_train_samples.shape[0]
 
@@ -195,13 +202,16 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                 print("Final test loss", test_loss, "Final test variance", test_variance)
                 print("MSE/Variance ratio ", (test_loss/test_variance))
 
+            gc.collect()
             iter=iter+1
 
 
 if __name__ == '__main__':
+    #print("Start main")
     filename = '/home/rgangaraju/chaos/entropy_data/xalan-smallJikesRVM-both-100k-64.entropy'
     filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
     files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
     files.sort(reverse=True)
 
-    train(files, iterations=200, learning_rate=0.01,batch_size=16384,print_iter=50)
+    #print("File list ", files)
+    train(files, iterations=1000, learning_rate=0.01,batch_size=16384,print_iter=1)

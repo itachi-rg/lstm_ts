@@ -7,6 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --time=02-01:00:00          # D-HH:MM:SS
 #SBATCH --gres=gpu:1             # Very Imp. Without this, CUDA does not recognise GPUs
+#SBATCH --mem=15000
 
 source /home/rgangaraju/.bashrc
 
@@ -17,7 +18,7 @@ source activate tf
 hostname
 
 #python -u mnist-deep.py
-python -u /home/rgangaraju/lstm/generic_lstm.py
+python -u /home/rgangaraju/generic_lstm/generic_lstm_test.py
 #python -u /home/rgangaraju/lstm/create_graph.py
 
 sleep 1
