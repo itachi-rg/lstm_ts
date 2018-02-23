@@ -202,7 +202,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                 print("Final test loss", test_loss, "Final test variance", test_variance)
                 print("MSE/Variance ratio ", (test_loss/test_variance))
 
-            gc.collect()
+                gc.collect()
             iter=iter+1
 
 

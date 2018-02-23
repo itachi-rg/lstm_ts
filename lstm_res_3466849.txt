@@ -1,0 +1,37 @@
+node023
+ Parameter values
+ Iterations :  1000
+ time_steps :  50
+learning rat:  0.01
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy
+File vector  [1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0]
+1  : iteration , Mean Loss : 24.5627 Variance : 136.751  MSE/Var : 0.179616
+Final test loss [ 24.14966583] Final test variance [ 153.01480103]
+MSE/Variance ratio  [ 0.15782568]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy
+File vector  [1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0]
+1  : iteration , Mean Loss : 26.1571 Variance : 148.684  MSE/Var : 0.175924
+Final test loss [ 34.40359116] Final test variance [ 187.02719116]
+MSE/Variance ratio  [ 0.18394968]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy
+File vector  [1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1]
+1  : iteration , Mean Loss : 34.6785 Variance : 253.903  MSE/Var : 0.136582
+Final test loss [ 34.77199173] Final test variance [ 231.44100952]
+MSE/Variance ratio  [ 0.15024127]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy
+File vector  [1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1]
+1  : iteration , Mean Loss : 73.1354 Variance : 678.29  MSE/Var : 0.107823
+Final test loss [ 67.99556732] Final test variance [ 782.1729126]
+MSE/Variance ratio  [ 0.08693163]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr2-both-100k-64.entropy
+File vector  [0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1]
+1  : iteration , Mean Loss : 36.436 Variance : 13.1337  MSE/Var : 2.77424
+Final test loss [ 38.15987778] Final test variance [ 9.56124115]
+MSE/Variance ratio  [ 3.99110079]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy
+File vector  [0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1]
+1  : iteration , Mean Loss : 59.8753 Variance : 8.29459  MSE/Var : 7.21859
+Final test loss [ 54.83779907] Final test variance [ 2.98448801]
+MSE/Variance ratio  [ 18.3742733]
+Train on file /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex3-inst-100k-64.entropy
+File vector  [0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1]

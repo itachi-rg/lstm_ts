@@ -1,0 +1,13 @@
+2018-02-21 01:33:13.221377: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-21 01:33:13.590814: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla M40 24GB major: 5 minor: 2 memoryClockRate(GHz): 1.112
+pciBusID: 0000:02:00.0
+totalMemory: 22.43GiB freeMemory: 22.32GiB
+2018-02-21 01:33:13.590862: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M40 24GB, pci bus id: 0000:02:00.0, compute capability: 5.2)
+/home/rgangaraju/miniconda3/envs/tf/lib/python3.5/site-packages/numpy/core/fromnumeric.py:2909: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home/rgangaraju/miniconda3/envs/tf/lib/python3.5/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+slurmstepd: error: Job 3467433 exceeded memory limit (26940212 > 20480000), being killed
+slurmstepd: error: *** JOB 3467433 ON node025 CANCELLED AT 2018-02-21T01:39:05 ***
+slurmstepd: error: Exceeded job memory limit

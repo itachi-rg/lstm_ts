@@ -7,7 +7,7 @@
 #SBATCH --ntasks=1
 #SBATCH --time=02-01:00:00          # D-HH:MM:SS
 #SBATCH --gres=gpu:1             # Very Imp. Without this, CUDA does not recognise GPUs
-#SBATCH --mem=15000
+#SBATCH --mem=20000
 
 source /home/rgangaraju/.bashrc
 
