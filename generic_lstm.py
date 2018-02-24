@@ -159,6 +159,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 
 		iter=1
 		while iter<iterations:
+			all_file_loss_list = []
 			for data_file in training_files:
 				X_train_samples, y_train_samples, X_test_samples, y_test_samples = getData(data_file, time_steps,split_percent)
 
@@ -192,6 +193,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 					
 					mean_loss = np.mean(mean_loss_list)
 					loss_variance = np.mean(loss_variance_list)
+					all_file_loss_list.append(mean_loss)
 					print(iter, " : iteration , Mean Loss :", mean_loss, "Variance :", loss_variance, " MSE/Var :", (mean_loss/loss_variance) )
 				else:
 					while (current_batch_length)<num_train_samples:
@@ -214,8 +216,9 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 					#test_preds, test_loss, test_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_test_samples, y: y_test_samples})
 					#print("Final test loss", test_loss, "Final test variance", test_variance)
 					#print("MSE/Variance ratio ", (test_loss/test_variance))
+			if iter%print_iter==0:
+				print("Mean all file loss",np.mean(all_file_loss_list))
 
-				#gc.collect()
 			iter=iter+1
 
 
