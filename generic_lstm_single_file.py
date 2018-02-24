@@ -163,6 +163,8 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                 X_train_samples, y_train_samples, X_test_samples, y_test_samples = getData(data_file, time_steps,split_percent)
 
                 num_train_samples = X_train_samples.shape[0]
+                print("num_train_samples ", num_train_samples)
+                print("X_train_samples ", X_train_samples.shape)
 
                 X_samples_shuffle, y_samples_shuffle = shuffle(X_train_samples, y_train_samples,random_state=iter)
                 gc.collect()
@@ -171,6 +173,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                 if iter%print_iter==0:
                     mean_loss_list = []
                     loss_variance_list = []
+                    print("current_batch+batch_size ", current_batch_length+batch_size)
                     while (current_batch_length+batch_size)<num_train_samples:
                         X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
                         y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
@@ -178,6 +181,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                         current_batch_length += batch_size
 
                         batch_mean_loss, batch_loss_variance = sess.run([tf_mean_loss,tf_loss_variance],feed_dict={x: X_batch_samples, y: y_batch_samples})
+                        print("batch_mean_loss ", batch_mean_loss, " batch_loss_variance ", batch_loss_variance)
                         mean_loss_list.append(batch_mean_loss)
                         loss_variance_list.append(batch_loss_variance)
                     
@@ -212,6 +216,7 @@ if __name__ == '__main__':
     filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
     files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
     files.sort(reverse=True)
+    files = ['/home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy']
 
-    #print("File list ", files)
+    print("File list ", files)
     train(files, iterations=1000, learning_rate=0.01,batch_size=16384,print_iter=1)
