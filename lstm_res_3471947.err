@@ -1,0 +1,7 @@
+2018-02-24 01:48:16.260708: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-24 01:48:16.640345: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla M40 24GB major: 5 minor: 2 memoryClockRate(GHz): 1.112
+pciBusID: 0000:81:00.0
+totalMemory: 22.43GiB freeMemory: 22.32GiB
+2018-02-24 01:48:16.640397: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla M40 24GB, pci bus id: 0000:81:00.0, compute capability: 5.2)
+slurmstepd: error: *** JOB 3471947 ON node003 CANCELLED AT 2018-02-24T01:56:42 ***

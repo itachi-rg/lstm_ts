@@ -44,14 +44,14 @@ def getFileVector(absolute_path):
 	return vector
 
 def getData(training_file, time_steps, split_percent):
-	print("Train on file",training_file)
+	#print("Train on file",training_file)
 
 	series = read_csv(training_file)
 
 	file_vector = getFileVector(training_file)
 	#file_vector_size = len(file_vector)
 
-	print("File vector ", file_vector)
+	#print("File vector ", file_vector)
 	file_vector_size = len(file_vector)
 	
 	# Convert series to dataframe to perform shift and generate test set
@@ -163,8 +163,8 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 				X_train_samples, y_train_samples, X_test_samples, y_test_samples = getData(data_file, time_steps,split_percent)
 
 				num_train_samples = X_train_samples.shape[0]
-				print("num_train_samples ", num_train_samples)
-				print("X_train_samples ", X_train_samples.shape)
+				#print("num_train_samples ", num_train_samples)
+				#print("X_train_samples ", X_train_samples.shape)
 
 				X_samples_shuffle, y_samples_shuffle = shuffle(X_train_samples, y_train_samples,random_state=iter)
 				gc.collect()
@@ -173,7 +173,7 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 				if iter%print_iter==0:
 					mean_loss_list = []
 					loss_variance_list = []
-					print("current_batch+batch_size ", current_batch_length+batch_size)
+					#print("current_batch+batch_size ", current_batch_length+batch_size)
 					while (current_batch_length)<num_train_samples:
 						if current_batch_length+batch_size<num_train_samples:
 							X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
@@ -210,9 +210,9 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
 
 				# Get the predictions from the model to construct the graph
 				#train_preds, train_loss, train_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_train_samples, y: y_train_samples})
-				test_preds, test_loss, test_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_test_samples, y: y_test_samples})
-				print("Final test loss", test_loss, "Final test variance", test_variance)
-				print("MSE/Variance ratio ", (test_loss/test_variance))
+					#test_preds, test_loss, test_variance=sess.run([prediction,tf_mean_loss,tf_loss_variance],feed_dict={x: X_test_samples, y: y_test_samples})
+					#print("Final test loss", test_loss, "Final test variance", test_variance)
+					#print("MSE/Variance ratio ", (test_loss/test_variance))
 
 				#gc.collect()
 			iter=iter+1
@@ -224,7 +224,7 @@ if __name__ == '__main__':
 	filedir = '/home/rgangaraju/chaos/selectedFiles_rishikesh/files'
 	files = [join(filedir,f) for f in listdir(filedir) if isfile(join(filedir, f))]
 	files.sort(reverse=True)
-	files = ['/home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy']
+	#files = ['/home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy']
 
 	print("File list ", files)
-	train(files, iterations=1000, learning_rate=0.01,batch_size=16384,print_iter=1)
+	train(files, iterations=10000, learning_rate=0.01,batch_size=16384,print_iter=1)

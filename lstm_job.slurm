@@ -18,7 +18,7 @@ source activate tf
 hostname
 
 #python -u mnist-deep.py
-python -u /home/rgangaraju/generic_lstm/generic_lstm_test.py
+python -u /home/rgangaraju/generic_lstm/generic_lstm.py
 #python -u /home/rgangaraju/lstm/create_graph.py
 
 sleep 1

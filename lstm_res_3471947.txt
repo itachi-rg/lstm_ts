@@ -1,0 +1,259 @@
+node003
+File list  ['/home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/tomcat-defaultJikesRVM-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJikesRVM-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallHotSpot-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-defaultJ9-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-inst-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJ9-inst-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallHotSpot-inst-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-inst-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-3-trace-data-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-1-trace-inst-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-0-trace-inst-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJikesRVM-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultHotSpot-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk6-inst-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk5-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk2-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk1-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/mcf-ref-mcf-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallJikesRVM-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallHotSpot-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJikesRVM-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJ9-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-smallJikesRVM-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultHotSpot-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-smallJikesRVM-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyJikesRVM-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyHotSpot-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJikesRVM-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultHotSpot-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc15-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-smallJ9-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultJ9-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/equake-ref-equake-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallJ9-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJikesRVM-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultHotSpot-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/crafty-ref-crafty-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip23-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultJ9-data-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultHotSpot-both-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJikesRVM-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-data-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-data-100k-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-100k-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-inst-1m-64.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-both-1m-4096.entropy', '/home/rgangaraju/chaos/selectedFiles_rishikesh/files/ammp-ref-ammp-data-1m-4096.entropy']
+ Parameter values
+ Iterations :  10000
+ time_steps :  50
+learning rat:  0.01
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy
+1  : iteration , Mean Loss : 7.32226 Variance : 24.0712  MSE/Var : 0.304191
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy
+1  : iteration , Mean Loss : 2.61994 Variance : 8.25177  MSE/Var : 0.317501
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy
+1  : iteration , Mean Loss : 23.8264 Variance : 108.942  MSE/Var : 0.218708
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy
+1  : iteration , Mean Loss : 38.4366 Variance : 267.375  MSE/Var : 0.143755
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy
+1  : iteration , Mean Loss : 12.1145 Variance : 0.956645  MSE/Var : 12.6635
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-data-100k-4096.entropy
+1  : iteration , Mean Loss : 4.77875 Variance : 4.59901  MSE/Var : 1.03908
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/tomcat-defaultJikesRVM-both-1m-64.entropy
+1  : iteration , Mean Loss : 21.6636 Variance : 239.501  MSE/Var : 0.0904531
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJikesRVM-both-1m-4096.entropy
+1  : iteration , Mean Loss : 0.512357 Variance : 1.9881  MSE/Var : 0.257711
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-data-1m-4096.entropy
+1  : iteration , Mean Loss : 4.62914 Variance : 6.24657  MSE/Var : 0.741069
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-both-100k-4096.entropy
+1  : iteration , Mean Loss : 1.97967 Variance : 3.99454  MSE/Var : 0.495594
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallHotSpot-both-1m-4096.entropy
+1  : iteration , Mean Loss : 0.981186 Variance : 2.00051  MSE/Var : 0.490467
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-defaultJ9-both-1m-4096.entropy
+1  : iteration , Mean Loss : 1.28185 Variance : 2.98574  MSE/Var : 0.429325
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-inst-100k-4096.entropy
+1  : iteration , Mean Loss : 3.67568 Variance : 23.5269  MSE/Var : 0.156233
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-64.entropy
+1  : iteration , Mean Loss : 19.3595 Variance : 115.619  MSE/Var : 0.167443
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-4096.entropy
+1  : iteration , Mean Loss : 2.99971 Variance : 12.4724  MSE/Var : 0.240508
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJ9-inst-1m-4096.entropy
+1  : iteration , Mean Loss : 11.7713 Variance : 63.9537  MSE/Var : 0.18406
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallHotSpot-inst-1m-4096.entropy
+1  : iteration , Mean Loss : 5.75225 Variance : 21.5177  MSE/Var : 0.267326
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-inst-100k-4096.entropy
+1  : iteration , Mean Loss : 2.43064 Variance : 12.0041  MSE/Var : 0.202484
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-data-100k-4096.entropy
+1  : iteration , Mean Loss : 2.88355 Variance : 7.46935  MSE/Var : 0.386051
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-3-trace-data-1m-64.entropy
+1  : iteration , Mean Loss : 16.0756 Variance : 268.758  MSE/Var : 0.0598145
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-1-trace-inst-100k-4096.entropy
+1  : iteration , Mean Loss : 3.10173 Variance : 18.5591  MSE/Var : 0.167127
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-0-trace-inst-100k-4096.entropy
+1  : iteration , Mean Loss : 4.83696 Variance : 29.3041  MSE/Var : 0.165061
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJikesRVM-data-100k-64.entropy
+1  : iteration , Mean Loss : 26.7007 Variance : 98.0601  MSE/Var : 0.272289
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-inst-100k-64.entropy
+1  : iteration , Mean Loss : 20.9318 Variance : 60.5186  MSE/Var : 0.345874
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-data-1m-4096.entropy
+1  : iteration , Mean Loss : 13.747 Variance : 11.2178  MSE/Var : 1.22546
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultHotSpot-inst-1m-64.entropy
+1  : iteration , Mean Loss : 35.8379 Variance : 215.641  MSE/Var : 0.166193
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk6-inst-100k-4096.entropy
+1  : iteration , Mean Loss : 1.2839 Variance : 0.0708461  MSE/Var : 18.1223
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk5-data-1m-4096.entropy
+1  : iteration , Mean Loss : 0.190605 Variance : 1.8709e-05  MSE/Var : 10187.9
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk2-data-100k-4096.entropy
+1  : iteration , Mean Loss : 1.19751 Variance : 0.273523  MSE/Var : 4.3781
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk1-both-1m-4096.entropy
+1  : iteration , Mean Loss : 5.27732 Variance : 11.6899  MSE/Var : 0.451443
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-inst-1m-64.entropy
+1  : iteration , Mean Loss : 16.1821 Variance : 44.6181  MSE/Var : 0.36268
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-data-100k-4096.entropy
+1  : iteration , Mean Loss : 11.731 Variance : 28.5577  MSE/Var : 0.410783
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mcf-ref-mcf-data-100k-64.entropy
+1  : iteration , Mean Loss : 124.752 Variance : 1918.74  MSE/Var : 0.0650175
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallJikesRVM-both-100k-64.entropy
+1  : iteration , Mean Loss : 21.5429 Variance : 110.523  MSE/Var : 0.194917
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallHotSpot-both-1m-64.entropy
+1  : iteration , Mean Loss : 27.5157 Variance : 115.007  MSE/Var : 0.239252
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJikesRVM-data-100k-4096.entropy
+1  : iteration , Mean Loss : 5.70329 Variance : 12.6379  MSE/Var : 0.451284
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJ9-both-100k-4096.entropy
+1  : iteration , Mean Loss : 4.39766 Variance : 20.8442  MSE/Var : 0.210977
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-inst-100k-64.entropy
+1  : iteration , Mean Loss : 29.865 Variance : 131.05  MSE/Var : 0.227891
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultHotSpot-both-100k-64.entropy
+1  : iteration , Mean Loss : 36.3196 Variance : 170.371  MSE/Var : 0.21318
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-smallJikesRVM-both-1m-4096.entropy
+1  : iteration , Mean Loss : 3.52949 Variance : 12.279  MSE/Var : 0.287442
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-inst-1m-64.entropy
+1  : iteration , Mean Loss : 35.8695 Variance : 74.6788  MSE/Var : 0.480317
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultJikesRVM-data-1m-4096.entropy
+1  : iteration , Mean Loss : 6.61728 Variance : 11.4691  MSE/Var : 0.576967
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/luindex-defaultHotSpot-data-100k-64.entropy
+1  : iteration , Mean Loss : 31.1877 Variance : 169.178  MSE/Var : 0.184348
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-smallJikesRVM-data-1m-4096.entropy
+1  : iteration , Mean Loss : 4.73045 Variance : 36.7343  MSE/Var : 0.128775
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-inst-100k-64.entropy
+1  : iteration , Mean Loss : 35.8674 Variance : 152.174  MSE/Var : 0.235699
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/jython-defaultJikesRVM-both-1m-4096.entropy
+1  : iteration , Mean Loss : 14.1332 Variance : 22.1553  MSE/Var : 0.637913
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyJikesRVM-inst-1m-64.entropy
+1  : iteration , Mean Loss : 28.9252 Variance : 153.359  MSE/Var : 0.188611
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-tinyHotSpot-both-100k-64.entropy
+1  : iteration , Mean Loss : 13.5157 Variance : 69.679  MSE/Var : 0.193971
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-inst-100k-64.entropy
+1  : iteration , Mean Loss : 22.9163 Variance : 147.327  MSE/Var : 0.155547
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJikesRVM-data-1m-4096.entropy
+1  : iteration , Mean Loss : 0.767987 Variance : 0.482457  MSE/Var : 1.59182
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-data-1m-4096.entropy
+1  : iteration , Mean Loss : 3.30444 Variance : 5.86688  MSE/Var : 0.563237
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-smallJ9-both-1m-4096.entropy
+1  : iteration , Mean Loss : 2.12189 Variance : 4.33372  MSE/Var : 0.489623
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultJikesRVM-both-1m-4096.entropy
+1  : iteration , Mean Loss : 5.34464 Variance : 9.20203  MSE/Var : 0.580811
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/h2-defaultHotSpot-both-1m-64.entropy
+1  : iteration , Mean Loss : 23.1822 Variance : 152.575  MSE/Var : 0.151939
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc15-both-100k-4096.entropy
+1  : iteration , Mean Loss : 2.7876 Variance : 3.7845  MSE/Var : 0.736581
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/gcc-ref-cc12-data-1m-4096.entropy
+1  : iteration , Mean Loss : 2.79845 Variance : 14.7733  MSE/Var : 0.189426
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-smallJ9-both-1m-64.entropy
+1  : iteration , Mean Loss : 36.6981 Variance : 213.485  MSE/Var : 0.1719
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultJ9-both-1m-64.entropy
+1  : iteration , Mean Loss : 33.5057 Variance : 183.681  MSE/Var : 0.182413
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-1m-4096.entropy
+1  : iteration , Mean Loss : 12.5453 Variance : 39.9324  MSE/Var : 0.314163
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/fop-defaultHotSpot-both-100k-4096.entropy
+1  : iteration , Mean Loss : 8.12865 Variance : 26.9147  MSE/Var : 0.302015
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/equake-ref-equake-both-1m-64.entropy
+1  : iteration , Mean Loss : 17.2511 Variance : 15.8869  MSE/Var : 1.08587
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallJ9-data-100k-64.entropy
+1  : iteration , Mean Loss : 35.3317 Variance : 112.058  MSE/Var : 0.315297
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-1m-4096.entropy
+1  : iteration , Mean Loss : 6.4266 Variance : 9.62064  MSE/Var : 0.668002
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-smallHotSpot-data-100k-64.entropy
+1  : iteration , Mean Loss : 25.5623 Variance : 97.0437  MSE/Var : 0.26341
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJikesRVM-inst-1m-64.entropy
+1  : iteration , Mean Loss : 35.4599 Variance : 184.339  MSE/Var : 0.192363
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-data-1m-4096.entropy
+1  : iteration , Mean Loss : 10.0507 Variance : 15.3903  MSE/Var : 0.653054
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultJ9-both-1m-4096.entropy
+1  : iteration , Mean Loss : 7.03265 Variance : 24.2024  MSE/Var : 0.290577
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/eclipse-defaultHotSpot-both-100k-64.entropy
+1  : iteration , Mean Loss : 30.4469 Variance : 156.803  MSE/Var : 0.194173
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/crafty-ref-crafty-data-100k-4096.entropy
+1  : iteration , Mean Loss : 3.9293 Variance : 0.0472347  MSE/Var : 83.1868
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip23-data-100k-4096.entropy
+1  : iteration , Mean Loss : 1.76081 Variance : 6.29072  MSE/Var : 0.279905
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip22-data-100k-4096.entropy
+1  : iteration , Mean Loss : 1.57861 Variance : 5.45948  MSE/Var : 0.28915
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-inst-1m-64.entropy
+1  : iteration , Mean Loss : 2.95052 Variance : 7.04885  MSE/Var : 0.418582
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/bzip2-ref-bzip21-both-1m-4096.entropy
+1  : iteration , Mean Loss : 5.87415 Variance : 23.3551  MSE/Var : 0.251515
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-1m-64.entropy
+1  : iteration , Mean Loss : 31.2493 Variance : 192.78  MSE/Var : 0.162098
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallJ9-both-100k-64.entropy
+1  : iteration , Mean Loss : 20.2308 Variance : 94.7289  MSE/Var : 0.213565
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-inst-1m-64.entropy
+1  : iteration , Mean Loss : 19.7402 Variance : 98.4535  MSE/Var : 0.200503
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-64.entropy
+1  : iteration , Mean Loss : 19.0424 Variance : 59.205  MSE/Var : 0.321636
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-smallHotSpot-data-100k-4096.entropy
+1  : iteration , Mean Loss : 1.58125 Variance : 2.14788  MSE/Var : 0.736187
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultJ9-data-1m-4096.entropy
+1  : iteration , Mean Loss : 6.03439 Variance : 12.7219  MSE/Var : 0.474332
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/batik-defaultHotSpot-both-1m-64.entropy
+1  : iteration , Mean Loss : 31.1887 Variance : 209.482  MSE/Var : 0.148884
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJikesRVM-inst-1m-64.entropy
+1  : iteration , Mean Loss : 41.9803 Variance : 53.9035  MSE/Var : 0.778805
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-inst-1m-64.entropy
+1  : iteration , Mean Loss : 36.3284 Variance : 230.726  MSE/Var : 0.157452
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-smallJ9-data-1m-64.entropy
+1  : iteration , Mean Loss : 44.7284 Variance : 110.011  MSE/Var : 0.40658
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-inst-100k-64.entropy
+1  : iteration , Mean Loss : 38.5248 Variance : 145.216  MSE/Var : 0.265293
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJikesRVM-data-100k-4096.entropy
+1  : iteration , Mean Loss : 6.18618 Variance : 13.8273  MSE/Var : 0.447387
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-1m-64.entropy
+1  : iteration , Mean Loss : 23.3321 Variance : 238.198  MSE/Var : 0.0979525
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/avrora-defaultJ9-inst-100k-64.entropy
+1  : iteration , Mean Loss : 17.923 Variance : 188.975  MSE/Var : 0.0948432
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-inst-1m-64.entropy
+1  : iteration , Mean Loss : 0.650631 Variance : 0.699561  MSE/Var : 0.930056
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/art-ref-art-both-1m-4096.entropy
+1  : iteration , Mean Loss : 2.74613 Variance : 6.66603  MSE/Var : 0.411959
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/ammp-ref-ammp-data-1m-4096.entropy
+1  : iteration , Mean Loss : 5.94045 Variance : 69.3383  MSE/Var : 0.0856734
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallJ9-both-100k-4096.entropy
+2  : iteration , Mean Loss : 7.32886 Variance : 24.0863  MSE/Var : 0.304274
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-smallHotSpot-both-100k-4096.entropy
+2  : iteration , Mean Loss : 2.61963 Variance : 8.25188  MSE/Var : 0.317458
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJikesRVM-data-100k-64.entropy
+2  : iteration , Mean Loss : 23.8305 Variance : 109.114  MSE/Var : 0.218399
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/xalan-defaultJ9-both-1m-64.entropy
+2  : iteration , Mean Loss : 38.4561 Variance : 266.053  MSE/Var : 0.144543
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vpr-ref-vpr1-data-100k-64.entropy
+2  : iteration , Mean Loss : 12.1146 Variance : 0.956643  MSE/Var : 12.6637
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/vortex-ref-vortex-data-100k-4096.entropy
+2  : iteration , Mean Loss : 4.77855 Variance : 4.59034  MSE/Var : 1.041
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/tomcat-defaultJikesRVM-both-1m-64.entropy
+2  : iteration , Mean Loss : 21.6702 Variance : 240.091  MSE/Var : 0.0902584
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJikesRVM-both-1m-4096.entropy
+2  : iteration , Mean Loss : 0.512357 Variance : 1.9881  MSE/Var : 0.257711
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-data-1m-4096.entropy
+2  : iteration , Mean Loss : 4.62914 Variance : 6.24657  MSE/Var : 0.741069
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallJ9-both-100k-4096.entropy
+2  : iteration , Mean Loss : 1.98105 Variance : 3.99928  MSE/Var : 0.495353
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-smallHotSpot-both-1m-4096.entropy
+2  : iteration , Mean Loss : 0.981186 Variance : 2.00051  MSE/Var : 0.490467
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/sunflow-defaultJ9-both-1m-4096.entropy
+2  : iteration , Mean Loss : 1.2802 Variance : 2.9772  MSE/Var : 0.43
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-inst-100k-4096.entropy
+2  : iteration , Mean Loss : 3.69309 Variance : 23.6011  MSE/Var : 0.156479
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-64.entropy
+2  : iteration , Mean Loss : 19.3559 Variance : 115.576  MSE/Var : 0.167473
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJikesRVM-both-100k-4096.entropy
+2  : iteration , Mean Loss : 3.00167 Variance : 12.4933  MSE/Var : 0.240262
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallJ9-inst-1m-4096.entropy
+2  : iteration , Mean Loss : 11.7713 Variance : 63.9537  MSE/Var : 0.18406
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-smallHotSpot-inst-1m-4096.entropy
+2  : iteration , Mean Loss : 5.75225 Variance : 21.5177  MSE/Var : 0.267326
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-inst-100k-4096.entropy
+2  : iteration , Mean Loss : 2.41214 Variance : 11.9313  MSE/Var : 0.202169
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-6-trace-data-100k-4096.entropy
+2  : iteration , Mean Loss : 2.88355 Variance : 7.46935  MSE/Var : 0.386051
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-3-trace-data-1m-64.entropy
+2  : iteration , Mean Loss : 16.0756 Variance : 268.758  MSE/Var : 0.0598145
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-1-trace-inst-100k-4096.entropy
+2  : iteration , Mean Loss : 3.15926 Variance : 18.7276  MSE/Var : 0.168695
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-small-0-trace-inst-100k-4096.entropy
+2  : iteration , Mean Loss : 4.80067 Variance : 29.5241  MSE/Var : 0.162601
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJikesRVM-data-100k-64.entropy
+2  : iteration , Mean Loss : 26.7029 Variance : 98.6816  MSE/Var : 0.270597
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-inst-100k-64.entropy
+2  : iteration , Mean Loss : 20.9321 Variance : 60.5128  MSE/Var : 0.345911
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultJ9-data-1m-4096.entropy
+2  : iteration , Mean Loss : 13.7386 Variance : 11.3264  MSE/Var : 1.21297
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/pmd-defaultHotSpot-inst-1m-64.entropy
+2  : iteration , Mean Loss : 35.8142 Variance : 215.802  MSE/Var : 0.165959
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk6-inst-100k-4096.entropy
+2  : iteration , Mean Loss : 1.28397 Variance : 0.0708049  MSE/Var : 18.1339
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk5-data-1m-4096.entropy
+2  : iteration , Mean Loss : 0.190605 Variance : 1.8709e-05  MSE/Var : 10187.9
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk2-data-100k-4096.entropy
+2  : iteration , Mean Loss : 1.19757 Variance : 0.274376  MSE/Var : 4.36472
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/perlbmk-ref-perlbmk1-both-1m-4096.entropy
+2  : iteration , Mean Loss : 5.27938 Variance : 11.6813  MSE/Var : 0.45195
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-inst-1m-64.entropy
+2  : iteration , Mean Loss : 16.1786 Variance : 44.621  MSE/Var : 0.362578
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/parser-ref-parser-data-100k-4096.entropy
+2  : iteration , Mean Loss : 11.7306 Variance : 28.5664  MSE/Var : 0.410644
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/mcf-ref-mcf-data-100k-64.entropy
+2  : iteration , Mean Loss : 124.812 Variance : 1918.04  MSE/Var : 0.0650726
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallJikesRVM-both-100k-64.entropy
+2  : iteration , Mean Loss : 21.6025 Variance : 111.201  MSE/Var : 0.194265
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-smallHotSpot-both-1m-64.entropy
+2  : iteration , Mean Loss : 27.5157 Variance : 115.007  MSE/Var : 0.239252
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJikesRVM-data-100k-4096.entropy
+2  : iteration , Mean Loss : 5.70329 Variance : 12.6385  MSE/Var : 0.451263
+File : /home/rgangaraju/chaos/selectedFiles_rishikesh/files/lusearch-defaultJ9-both-100k-4096.entropy
