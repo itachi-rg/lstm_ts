@@ -174,9 +174,13 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                     mean_loss_list = []
                     loss_variance_list = []
                     print("current_batch+batch_size ", current_batch_length+batch_size)
-                    while (current_batch_length+batch_size)<num_train_samples:
-                        X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
-                        y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+                    while (current_batch_length)<num_train_samples:
+                        if current_batch_length+batch_size<num_train_samples:
+	                        X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+	                        y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+                        else:
+                        	X_batch_samples = X_samples_shuffle[current_batch_length:]
+	                        y_batch_samples = y_samples_shuffle[current_batch_length:]
 
                         current_batch_length += batch_size
 
@@ -189,9 +193,13 @@ def train(training_files, iterations=5000, time_steps=50, num_lstm_hidden_units=
                     loss_variance = np.mean(loss_variance_list)
                     print(iter, " : iteration , Mean Loss :", mean_loss, "Variance :", loss_variance, " MSE/Var :", (mean_loss/loss_variance) )
                 else:
-                    while (current_batch_length+batch_size)<num_train_samples:
-                        X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
-                        y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+                    while (current_batch_length)<num_train_samples:
+                    	if current_batch_length+batch_size<num_train_samples:
+	                        X_batch_samples = X_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+	                        y_batch_samples = y_samples_shuffle[current_batch_length:current_batch_length+batch_size]
+                        else:
+                        	X_batch_samples = X_samples_shuffle[current_batch_length:]
+	                        y_batch_samples = y_samples_shuffle[current_batch_length:]
         
                         current_batch_length += batch_size
 
